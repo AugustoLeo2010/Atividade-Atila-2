@@ -12,20 +12,20 @@ public class maior_menor {
             IO.println("O valor da soma é:" + Soma );
             IO.println("A Media será de:" + Media);
         } else { 
-         int maior = N1;
-         int menor = N1;
+         int maior = (int) N1;
+         int menor = (int) N1;
             
         if (N2 < menor) {
-            menor = N2;
+            menor = (int) N2;
         }
         if (N3 < menor) {
-            menor = N3;
+            menor = (int) N3;
         }
          if (N2 > maior) {
-            maior = N2;
+            maior = (int) N2;
         }
         if (N3 > maior) {
-            maior = N3;
+            maior = (int) N3;
         }
 
        IO.println("Menor número: " + menor);
