@@ -17,7 +17,8 @@ public class grandezas {
      IO.println("Voce escolheu a opção corrente");
  } else if (opcao.equals("4")) {
      IO.println("Voce saiu do programa");
- }
+    System.exit(0);
+}
 
  float U = Float.parseFloat(IO.readln("Digite o valor de U: "));
 float R = Float.parseFloat(IO.readln("Digite o valor de R: "));
