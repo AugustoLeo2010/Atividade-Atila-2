@@ -1,6 +1,6 @@
 public class grandezas {
   public static void main(String[] args) {
-
+ 
  IO.println("CALCULO DE GRANDEZAS ELETRICAS");
  IO.println("Qual opção voce deseja: ");
  IO.println("1.tensão");
