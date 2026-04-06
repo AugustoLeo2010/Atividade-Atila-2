@@ -18,6 +18,9 @@ public class grandezas {
  } else if (opcao.equals("4")) {
      IO.println("Voce saiu do programa");
     System.exit(0);
+} else {
+    IO.println("Opção invalida");
+     System.exit(0);
 }
 
  float U = Float.parseFloat(IO.readln("Digite o valor de U: "));
@@ -34,8 +37,7 @@ if (opcao.equals("1")) {
     IO.println("A resistencia e de: " + resistencia);
 }else if (opcao.equals("3")) {
     IO.println("A corrente e de: " + corrente);
-}
-
+} 
 
 }
 }
