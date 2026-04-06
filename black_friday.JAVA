@@ -3,7 +3,7 @@ public static void main(String[] args) {
 
 IO.println("DESCONTOS DA BLACK FRIDAY");
 IO.println("codigo" + "-forma de pagamento" + "-desconto(%)");
-IO.println("1" + "-A vista" + "-10&");
+IO.println("1" + "-A vista" + "-10%");
 IO.println("2" + "-Debito" + "-5%");
 IO.println("3" + "-Credito" + "-3%");
 IO.println("4" + "-PIX" + "-7.5%");
